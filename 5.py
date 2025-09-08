@@ -4,4 +4,4 @@ s = ''
 while N != 0:
     s += str(N % c)
     N //= c
-print(s[::-1])
+print(int(s[::-1]))
